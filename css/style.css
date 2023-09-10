@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    background-color: #b4bcbe96 ;
+}
+.logo{
+    height: 120px;
+    width: 120px;
+}
+.top-right {
+    height: 120px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    right: -15px;
+}
+
+.top-right i{
+    position: relative;
+    padding: 0 10px;
+    font-size: 30px;
+    bottom: 5px;
+}
+.top-right h5{
+    font-size: 16px;
+}
+.nav-menu{
+    background-color: #42a964;
+}
+.nav-menu ul li a{
+    color: #fafafa;
+}
+.nav-menu .dropdown-menu a{
+    color: #42a964;
+}
+#slider{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.feture .m-feture{
+    display: flex;
+    position: relative;
+    top: -80px;
+    z-index: 99;
+}
+.feture .main-feture{
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.815);
+    text-align: center;
+    padding: 40px 0 50px 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+}
+.feture .main-feture i{
+    font-size: 40px;
+    color: #42a964;
+}
+.feture .main-feture h5{
+    font-size: 15px;
+    color: #42a964;
+    line-height: 30px;
+}
+.feture .main-feture:hover{
+    transform: translateY(-30px);
+}
+.team h3{
+    font-size: 30px;
+    text-align: center;
+    color: #42a964;
+}
+.team p{
+    font-size: 50px;
+    text-align: center;
+    color: #42a964;
+    margin-top: -50px;
+}
+.doctors .arrow{
+    background-color: #42a964;
+    border-color: #228d46;
+}
+.doctors .arrow:hover{
+    background-color: #228d46;
+}
+.doctors .card .img-box{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.doctors .card img{
+    width: 100%;
+    padding: 0 30px;
+    object-fit: cover;
+    object-position: 10% 1%;
+    transition: all linear 0.2s;
+    
+    overflow: hidden;
+}
+.doctors .card img:hover{
+    transform: scale(1.1);
+}
+.doctors .card h6{
+    text-align: center;
+    font-size: 14px;
+    color: #228d46;
+}
+.doctors .card .card-text{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+}
+.doctors .card .depertment{
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    line-height: 30px;
+    
+}
+.profile-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.doctors .card .doctor-btn{
+    height: auto;
+    width: 100px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+
