@@ -39,13 +39,13 @@ a{
     font-size: 16px;
 }
 .nav-menu{
-    background-color: #42a964;
+    background-color: #198754;
 }
 .nav-menu ul li a{
     color: #fafafa;
 }
 .nav-menu .dropdown-menu a{
-    color: #42a964;
+    color: #198754;
 }
 #slider{
     height: 100vh;
@@ -53,45 +53,36 @@ a{
     position: relative;
     top: 0;
 }
-
-.feture .m-feture{
+.doctor .m-feture{
     display: flex;
     position: relative;
     top: -80px;
     z-index: 99;
 }
-.feture .main-feture{
+.doctor .main-feture{
     width: 25%;
-    background-color: rgba(255, 255, 255, 0.815);
+    background-image: url(../img/pattern-1.png);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.637);
     text-align: center;
     padding: 40px 0 50px 0;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgba(100, 46, 46, 0.1);
     transition: all 0.5s;
 }
-.feture .main-feture i{
-    font-size: 40px;
-    color: #42a964;
+.doctor .main-feture i{
+    font-size: 30px;
+    color: #198754;
 }
-.feture .main-feture h5{
+.doctor .main-feture h5{
     font-size: 15px;
-    color: #42a964;
+    color: #198754;
     line-height: 30px;
 }
-.feture .main-feture:hover{
+.doctor .main-feture:hover{
     transform: translateY(-30px);
 }
-.team h3{
-    font-size: 30px;
-    text-align: center;
-    color: #42a964;
-}
-.team p{
-    font-size: 50px;
-    text-align: center;
-    color: #42a964;
-    margin-top: -50px;
-}
-.doctors .arrow{
+
+/* .doctors .arrow{
     background-color: #42a964;
     border-color: #228d46;
 }
@@ -109,7 +100,6 @@ a{
     object-fit: cover;
     object-position: 10% 1%;
     transition: all linear 0.2s;
-    
     overflow: hidden;
 }
 .doctors .card img:hover{
@@ -131,7 +121,6 @@ a{
     font-size: 12px;
     display: block;
     line-height: 30px;
-    
 }
 .profile-btn{
     margin-top: 20px;
@@ -143,7 +132,262 @@ a{
     width: 100px;
     font-size: 12px;
     padding: 5px;
+} */
+
+.doctor{
+    background-color: #f3f3f5;
+}
+.team h3{
+    font-size: 30px;
+    text-align: center;
+    color: #198754;
+    padding-top: 40px;
+}
+.team .commi{
+    padding-top: 0 !important;
+}
+.team p{
+    font-size: 50px;
+    text-align: center;
+    color: #198754;
+    margin-top: -50px;
+}
+.doctor .card-inner{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.doctor .item{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.doctor .item img{
+    height: 200px;
+    padding: 0 30px;
+    object-fit: cover;
+    object-position: 10% 1%;
+    transition: all linear 0.2s;
+}
+.doctor .item img:hover{
+    transform: scale(1.1);
+}
+.doctor .card-body h6{
+    font-size: 14px;
+    color: #198754;
+    padding-top: 15px;
+}
+.doctor .card-body .card-text{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 20px;
+}
+.doctor .card-body .depertment{
+    text-align: center;
+    font-size: 12px;
+    display: block;
+}
+.doctor .card-body .profile-btn{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.doctor .card-body .doctor-btn{
+    height: auto;
+    width: 100px;
+    font-size: 12px;
+    padding: 5px;
+}
+.owl-nav{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 40px;
+}
+.owl-nav .owl-prev,.owl-next{
+    height: 30px;
+    width: 30px;
+    font-size: 40px !important;
+    line-height: 30px !important;
+    background-color: #198754 !important;
+    color: white !important;
+    transition: all linear 0.2s;
+}
+.owl-nav .owl-prev:hover{
+    background-color: #157347 !important;
+}
+.owl-nav .owl-next:hover{
+    background-color: #157347 !important;
+}
+.owl-nav .owl-prev span{
+    position: relative;
+    top: -2px;
+}
+.owl-nav .owl-next span{
+    position: relative;
+    top: -2px;
+}
+.owl-dots{
+    display: none !important;
+}
+.department{
+    background-color: #ffffff;
+    text-align: center;
+}
+.department .team h3{
+    font-size: 30px;
+    text-align: center;
+    color: #198754;
+    padding-top: 40px;
+}
+.department .team p{
+    font-size: 50px;
+    text-align: center;
+    color: #198754;
+    margin-top: -50px;
+}
+.department .item{
+    background-color: #f3f3f5;
+    padding-bottom: 40px;
+}
+.department .dep-inner{
+    height: 80px;
+    background-color: #198754;
+    transition: all linear 0.2s;
+}
+.department .item .dep-inner h5{
+    font-size: 16px;
+    color: white;
+    padding: 20px 10px;
+}
+.department .item p{
+    font-size: 12px;
+    padding: 10px;
+    line-height: 25px;
+}
+.department .item a{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid #19875442;
+    transition: all linear 0.2s;
+}
+.department .item:hover .dep-inner,
+.department .item:hover a{
+    background-color: #157347;
+    color: #ffffff;
 }
 
+.keep{
+    background-image: url(../img/keep.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding: 40px 0;
+}
+.keep .text-item{
+    position: relative;
+    left: 200px;
+}
+.keep .text-item h3{
+    font-size: 30px;
+    color: #198754;
+}
+.keep .text-item p{
+    font-size: 50px;
+    color: #198754;
+    margin-top: -50px;
+}
+.keep .text-item h6{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.keep .text-item a{
+    padding: 5px 50px;
+}
+.Services{
+    background-color: #ffffff;
+}
+.Services .item{
+    background-color: #f3f3f5;
+    text-align: center;
+}
+.Services .item i{
+    font-size: 30px;
+    color: #198754;
+    padding: 30px;
+    transition: all linear 0.2s;
+}
+.Services .item h5{
+    font-size: 16px;
+    line-height: 50px;
+    background-color: #198754;
+    color: white;
+    transition: all linear 0.2s;
+}
+.Services .item p{
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+    padding: 20px 10px;
+    transition: all linear 0.2s;
+}
+.Services .item:hover i{
+    color: #157347;
+}
+.Services .item:hover h5{
+    background-color: #157347;
+}
 
-
+.news{
+    background-color: #f3f3f5;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.news-block .news-inner{
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all linear 0.5s;
+}
+.news-block .news-inner:hover{
+    transform: translateY(-20px);
+}
+.news .news-img{
+    position: relative;
+}
+.news .news-img img{    
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}       
+.news .news-img .date{
+    padding: 5px 20px;
+    background-color: #198754;
+    border-radius: 10px 0 0 0;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}       
+.news .news-text{
+    height: 220px;
+    padding: 20px 10px;
+}
+.text-inner{
+    height: 70px;
+}       
+.news .news-text a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #198754;
+}       
+.news .news-text p{
+    font-size: 14px;
+    padding-top: 20px;
+}  
