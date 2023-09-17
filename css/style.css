@@ -17,14 +17,15 @@ a{
     width: 100%;
     position: absolute;
     z-index: 99;
-    background-color: #b4bcbe96 ;
+    background-color: #b4bcbe96 ;box-shadow: 0 0 20px 0 rgb(180, 180, 180);
 }
+
 .logo{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100%;
 }
 .top-right {
-    height: 120px;
+    height: 100px;
     position: relative;
     display: flex;
     align-items: center;
@@ -43,7 +44,10 @@ a{
 }
 .nav-menu{
     background-color: #198754;
-    align-items: center;
+}
+.nav-img img{
+    height: 80px;
+    width: auto;
 }
 .nav-menu .toggle-bg{
     color: #000;
@@ -67,12 +71,12 @@ a{
     z-index: 99;
 }
 .doctor .main-feture{
-    width: 25%;
     background-image: url(../img/pattern-1.png);
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.637);
     text-align: center;
-    padding: 40px 0 50px 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
     box-shadow: 0 5px 20px rgba(100, 46, 46, 0.1);
     transition: all 0.5s;
 }
@@ -509,8 +513,7 @@ footer .f-bottom{
 
 
 @media (max-width: 991px){
-    #head .logo img{    
-    }
+    #head .logo img,
     #head .top-right{
         display: none;
     }
@@ -519,5 +522,20 @@ footer .f-bottom{
     }
     .nav-menu .toggle-bg ul li a:hover{
         color: #157347;
+    }
+    .nav-menu{
+        position: absolute;
+        top: 0;
+    }
+    #slider{
+        height: 40vh;
+        width: 100%;
+        top: 95px;
+    }
+   
+}
+@media all and (min-width: 992px){
+    .nav-img{
+        display: none;
     }
 }
